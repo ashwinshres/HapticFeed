@@ -12,6 +12,7 @@
 		5D5A24AF2225404A00703270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A24AD2225404A00703270 /* Main.storyboard */; };
 		5D5A24B12225404B00703270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A24B02225404B00703270 /* Assets.xcassets */; };
 		5D5A24B42225404B00703270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A24B22225404B00703270 /* LaunchScreen.storyboard */; };
+		5D5A24BD222541B800703270 /* HapticFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A24BC222541B700703270 /* HapticFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D5A24B02225404B00703270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D5A24B32225404B00703270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D5A24B52225404B00703270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5A24BC222541B700703270 /* HapticFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5D5A24A82225404A00703270 /* Haptic Feed */ = {
 			isa = PBXGroup;
 			children = (
+				5D5A24BB222541B700703270 /* HapticFeed */,
 				5D5A24A92225404A00703270 /* AppDelegate.swift */,
 				5D5A24AB2225404A00703270 /* ViewController.swift */,
 				5D5A24AD2225404A00703270 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				5D5A24B52225404B00703270 /* Info.plist */,
 			);
 			path = "Haptic Feed";
+			sourceTree = "<group>";
+		};
+		5D5A24BB222541B700703270 /* HapticFeed */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A24BC222541B700703270 /* HapticFeed.swift */,
+			);
+			path = HapticFeed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				5D5A24AC2225404A00703270 /* ViewController.swift in Sources */,
 				5D5A24AA2225404A00703270 /* AppDelegate.swift in Sources */,
+				5D5A24BD222541B800703270 /* HapticFeed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

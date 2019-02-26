@@ -14,6 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBAction func onFeedBackClick(_ sender: UIButton) {
+        Haptic.impact(HapticFeedbackStyle(rawValue: sender.tag) ?? .light).generate()
+    }
+    
+    @IBAction func onNotificationClick(_ sender: UIButton) {
+        Haptic.notification(HapticFeedbackType(rawValue: sender.tag) ?? .error).generate()
+    }
+    
+    @IBAction func onSelectorClick(_ sender: UIButton) {
+        Haptic.selection.generate()
+    }
 
 
 }
